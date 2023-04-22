@@ -1,26 +1,52 @@
-import sys
+# -*- coding: utf-8 -*-
 
-sys.stderr.write(
-    """
-===============================
-Unsupported installation method
-===============================
-watchfiles no longer supports installation with `python setup.py install`.
-Please use `python -m pip install .` instead.
-"""
-)
-sys.exit(1)
+from os.path import dirname, join
+from setuptools import setup, find_packages
+from setuptools.command.test import test as TestCommand
 
 
-# The below code will never execute, however GitHub is particularly
-# picky about where it finds Python packaging metadata.
-# See: https://github.com/github/feedback/discussions/6456
-#
-# To be removed once GitHub catches up.
+with open(join(dirname(__file__), 'requirements/pyproject.txt')) as f:
+    required = f.read().splitlines()
+
+with open(join(dirname(__file__), 'README.md')) as f:
+    long_description = f.read()
+
+
+class PyTest(TestCommand):
+    user_options = []
+
+    def run(self):
+        import subprocess
+        import sys
+        errno = subprocess.call([sys.executable, '-m', 'pytest', 'tests'])
+        raise SystemExit(errno)
+
 
 setup(
     name='watchfiles',
-    install_requires=[
-        'anyio>=3.0.0,<4',
+    version='0.19.0',
+    install_requires=required,
+    url='https://github.com/samuelcolvin/watchfiles',
+    license='BSD',
+    author='Samuel Colvin',
+    author_email='',
+    packages=find_packages(),
+    include_package_data=True,
+    description='python devtools',
+    long_description=long_description,
+    classifiers=[
+        'Environment :: Console',
+        'Intended Audience :: System Administrators',
+        'Intended Audience :: Other Audience',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: MacOS',
+        'Operating System :: Microsoft :: Windows',
+        'Operating System :: POSIX',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Topic :: Security',
     ],
+    tests_require=['pytest'],
+    cmdclass=dict(test=PyTest)
 )
