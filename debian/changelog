@@ -1,3 +1,9 @@
+python-watchfiles (0.19.0-2) stretch; urgency=medium
+
+  * debian: build rust as well
+
+ -- André Roth <andre.roth@roche.com>  Sat, 22 Apr 2023 16:37:16 +0200
+
 python-watchfiles (0.19.0-1) stretch; urgency=medium
 
   * initial packaging
