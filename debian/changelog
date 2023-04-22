@@ -2,4 +2,4 @@ python-watchfiles (0.19.0-1) stretch; urgency=medium
 
   * initial packaging
 
- -- André Roth <andre.roth@roche.com>  Sat, 22 Apr 2023 16:04:18 +0200
+ -- André Roth <andre.roth@roche.com>  Sat, 22 Apr 2023 16:16:48 +0200
