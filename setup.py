@@ -24,7 +24,7 @@ class PyTest(TestCommand):
 
 setup(
     name='watchfiles',
-    version='1.0.9',
+    version='0.19.0',
     install_requires=required,
     url='https://github.com/samuelcolvin/watchfiles',
     license='BSD',
