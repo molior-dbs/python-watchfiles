@@ -1,3 +1,24 @@
+python-watchfiles (0.20.0-molior1) stretch; urgency=medium
+
+  * build for bookworm
+  * python-watchfiles: release 0.19.0-3
+  * debian: fix rust
+  * python-watchfiles: release 0.19.0-2
+  * debian: build rust as well
+  * python-watchfiles: release 0.19.0-1
+  * build for molior
+  * debianize
+  * Catch `SIGTERM` and kill running process before exitting (#244)
+  * Add ignore_permission_denied option (#224)
+  * add grace period during which file changes are ignored (#243)
+  * Improve debug (#242)
+  * Fix: Memory leak of PyO3 (#240)
+  * Allow maturin 1.x (#233)
+  * Bump pygments from 2.13.0 to 2.15.0 in /requirements (#237)
+  * Bump pymdown-extensions from 9.5 to 10.0 in /requirements (#229)
+
+ -- Dominik Schneider <dominik.schneider@accenture.com>  Sun, 24 Sep 2023 18:32:17 +0200
+
 python-watchfiles (0.19.0-3) stretch; urgency=medium
 
   * debian: fix rust
