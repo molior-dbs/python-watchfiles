@@ -1,3 +1,10 @@
+python-watchfiles (0.20.0-molior3) stretch; urgency=medium
+
+  * debian: crossbeam is part of crates-io package
+  * cargo: use correct dependency version of crossbeam
+
+ -- Dominik Schneider <dominik.schneider@accenture.com>  Mon, 25 Sep 2023 13:17:21 +0200
+
 python-watchfiles (0.20.0-molior2) stretch; urgency=medium
 
   * debian: added crossbeam-channel dep to control file
