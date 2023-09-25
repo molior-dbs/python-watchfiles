@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-molior2) stretch; urgency=medium
+
+  * debian: added crossbeam-channel dep to control file
+
+ -- Dominik Schneider <dominik.schneider@accenture.com>  Mon, 25 Sep 2023 11:25:09 +0200
+
 python-watchfiles (0.20.0-molior1) stretch; urgency=medium
 
   * build for bookworm
