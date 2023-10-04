@@ -1,0 +1,3 @@
+#!/usr/bin/dh-exec
+target/debug/lib_rust_notify.so => usr/lib/python3/dist-packages/watchfiles/_rust_notify.so
+watchfiles/_rust_notify.pyi usr/lib/python3/dist-packages/watchfiles/

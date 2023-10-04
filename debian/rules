@@ -5,8 +5,11 @@ export PYBUILD_NAME = python3-watchfiles
 %:
 	dh $@ --with python3 --buildsystem=pybuild
 
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf target
+
 override_dh_auto_build:
-	# ltrace -e getenv cargo
 	CARGO_HOME=/tmp cargo build
 	dh_auto_build
 
