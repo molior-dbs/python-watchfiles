@@ -7,7 +7,7 @@ export PYBUILD_NAME = python3-watchfiles
 
 override_dh_auto_build:
 	# ltrace -e getenv cargo
-	cargo build
+	CARGO_HOME=/tmp cargo build
 	dh_auto_build
 
 override_dh_auto_test:
