@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-molior9) stretch; urgency=medium
+
+  * debian: resolve dependencies
+
+ -- Dominik Schneider <dominik.schneider@accenture.com>  Wed, 04 Oct 2023 15:42:25 +0000
+
 python-watchfiles (0.20.0-molior8) stretch; urgency=medium
 
   * use /tmp folder for cargo build
