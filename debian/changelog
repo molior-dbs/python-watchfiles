@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-molior6) stretch; urgency=medium
+
+  * debian: fix file format
+
+ -- Dominik Schneider <dominik.schneider@accenture.com>  Wed, 04 Oct 2023 12:20:44 +0200
+
 python-watchfiles (0.20.0-molior5) stretch; urgency=medium
 
   * add gitlab ci
