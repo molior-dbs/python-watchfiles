@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-molior5) stretch; urgency=medium
+
+  * add gitlab ci
+
+ -- Dominik Schneider <dominik.schneider@accenture.com>  Wed, 04 Oct 2023 12:17:59 +0200
+
 python-watchfiles (0.20.0-molior4) stretch; urgency=medium
 
   * debian: fix build
