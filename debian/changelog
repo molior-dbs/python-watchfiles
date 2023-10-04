@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-molior4) stretch; urgency=medium
+
+  * debian: fix build
+
+ -- Dominik Schneider <dominik.schneider@accenture.com>  Wed, 04 Oct 2023 12:14:25 +0200
+
 python-watchfiles (0.20.0-molior3) stretch; urgency=medium
 
   * debian: crossbeam is part of crates-io package
