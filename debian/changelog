@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-molior8) stretch; urgency=medium
+
+  * use /tmp folder for cargo build
+
+ -- Dominik Schneider <dominik.schneider@accenture.com>  Wed, 04 Oct 2023 12:48:03 +0200
+
 python-watchfiles (0.20.0-molior7) stretch; urgency=medium
 
   * debian: fix format
