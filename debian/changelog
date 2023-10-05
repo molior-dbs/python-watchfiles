@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-molior10) stretch; urgency=medium
+
+  * debian: add dh-exec dep
+
+ -- Dominik Schneider <dominik.schneider@accenture.com>  Thu, 05 Oct 2023 15:44:08 +0000
+
 python-watchfiles (0.20.0-molior9) stretch; urgency=medium
 
   * debian: resolve dependencies
