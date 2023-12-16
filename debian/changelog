@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-molior11) stretch; urgency=medium
+
+  * bump version 0.20.0-molior11
+
+ -- André Roth <neolynx@gmail.com>  Sat, 16 Dec 2023 14:26:01 +0100
+
 python-watchfiles (0.20.0-molior10) stretch; urgency=medium
 
   * debian: add dh-exec dep
