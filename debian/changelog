@@ -1,0 +1,5 @@
+python-watchfiles (0.20.0-1) stable; urgency=medium
+
+  * build for debian bookworm
+
+ -- André Roth <neolynx@gmail.com>  Wed, 20 Dec 2023 13:57:33 +0100
