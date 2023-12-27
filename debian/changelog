@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-2) stable; urgency=medium
+
+  * debian: build offline
+
+ -- André Roth <neolynx@gmail.com>  Wed, 27 Dec 2023 20:19:01 +0100
+
 python-watchfiles (0.20.0-1) stable; urgency=medium
 
   * build for debian bookworm
