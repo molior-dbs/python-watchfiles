@@ -10,7 +10,7 @@ override_dh_auto_clean:
 	rm -rf target
 
 override_dh_auto_build:
-	CARGO_HOME=/tmp cargo build
+	CARGO_HOME=/tmp cargo build --offline
 	dh_auto_build
 
 override_dh_auto_test:
