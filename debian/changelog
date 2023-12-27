@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-4) stable; urgency=medium
+
+  * debian: fix building with debian dependencies
+
+ -- André Roth <neolynx@gmail.com>  Wed, 27 Dec 2023 23:13:40 +0100
+
 python-watchfiles (0.20.0-3) stable; urgency=medium
 
   * debian: add dependency
