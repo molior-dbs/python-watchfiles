@@ -1,3 +1,9 @@
+python-watchfiles (0.20.0-3) stable; urgency=medium
+
+  * debian: add dependency
+
+ -- André Roth <neolynx@gmail.com>  Wed, 27 Dec 2023 20:27:48 +0100
+
 python-watchfiles (0.20.0-2) stable; urgency=medium
 
   * debian: build offline
