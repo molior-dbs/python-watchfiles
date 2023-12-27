@@ -2,7 +2,7 @@ Source: python-watchfiles
 Maintainer: André Roth <neolynx@gmail.com>
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 7), dh-python, python3-setuptools, python3-all, dh-cargo, librust-crates-io-dev, git, librust-notify-dev, ltrace, dh-exec
+Build-Depends: debhelper (>= 7), dh-python, python3-setuptools, python3-all, dh-cargo, librust-crates-io-dev, librust-notify-dev, librust-crossbeam-channel-dev, dh-exec, git, ltrace
 Standards-Version: 3.9.7
 
 Package: python3-watchfiles
